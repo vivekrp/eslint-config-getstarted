@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+.history/
+haters/
+.github/
+.github/workflows/
+_config.yml
+CNAME
