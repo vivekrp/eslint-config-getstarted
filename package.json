@@ -1,0 +1,61 @@
+{
+  "name": "eslint-config-getstarted",
+  "version": "1.0.0",
+  "description": "Automatically setup the best and future-proofed linting and formatting config for your project with or without VS Code.",
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "format",
+    "eslint-config-getstarted",
+    "getstarted",
+    "lint-format",
+    "config",
+    "prettier",
+    "eslint-config-airbnb",
+    "babel-eslint",
+    "eslint-config-prettier",
+    "eslint-plugin-html",
+    "eslint-plugin-import",
+    "eslint-plugin-jsx-a11y",
+    "eslint-config-wesbos",
+    "eslint-plugin-prettier",
+    "eslint-plugin-react",
+    "eslint-plugin-react-hooks"
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:vivekrp/eslint-config-getstarted.git",
+  "author": "Vivek Rp <me@vivekrp.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-html": "^6.0.3",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.4.0",
+    "prettier": "^1.16.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-html": "^6.0.3",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.4.0",
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  }
+}
