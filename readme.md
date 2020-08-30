@@ -62,40 +62,13 @@ Tip: You can alternatively put this object in your `package.json` under the prop
 
 6. Now you can manually lint your code by running `npm run lint` and fix all fixable issues with `npm run lint:fix`. You probably want your editor to do this though.
 
-## Global Install
-
-1. First, install everything needed:
-
-```bash
-npx install-peerdeps --global eslint-config-getstarted
-```
-
-2. Then you need to make a global `.eslintrc` file:
-
-ESLint will look for one in your home directory
-
-- `~/.eslintrc` for mac
-- `C:\Users\username\.eslintrc` for windows
-
-In your `.eslintrc` file, it should look like this:
-
-```json
-{
-  "extends": ["eslint-config-getstarted"]
-}
-```
-
-3. To use from the CLI, you can now run `eslint .` or configure your editor as we show next.
-
 ## Settings
 
 If you'd like to overwrite eslint or prettier settings, you can add the rules in your `.eslintrc` file. The [ESLint rules](https://eslint.org/docs/rules/) go directly under `"rules"` while [prettier options](https://prettier.io/docs/en/options.html) go under `"prettier/prettier"`. Note that prettier rules overwrite anything in my config (trailing comma, and single quote), so you'll need to include those as well.
 
-```js
+```json
 {
-  "extends": [
-    "eslint-config-getstarted"
-  ],
+  "extends": ["eslint-config-getstarted"],
   "rules": {
     "no-console": 2,
     "prettier/prettier": [
@@ -104,7 +77,7 @@ If you'd like to overwrite eslint or prettier settings, you can add the rules in
         "trailingComma": "es5",
         "singleQuote": true,
         "printWidth": 120,
-        "tabWidth": 8,
+        "tabWidth": 8
       }
     ]
   }
@@ -120,7 +93,7 @@ Once you have done one, or both, of the above installs. You probably want your e
 1. Install the [ESLint package](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 2. Now we need to setup some VS Code settings via `Code/File` → `Preferences` → `Settings`. It's easier to enter these settings while editing the `settings.json` file, so click the ![Settings JSON](https://user-images.githubusercontent.com/13339456/79318309-17433300-7f07-11ea-9459-b27ee8dcf46c.png) icon in the top right corner or open Command Pallet by pressing Ctrl/CMD+Shift+P and then type Preferences: Open Settings (JSON):
 
-```js
+```json
   // These are all my auto-save configs
 "editor.formatOnSave": true,
 // turn it off for JS and JSX, we will do this via eslint
