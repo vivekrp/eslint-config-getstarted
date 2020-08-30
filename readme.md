@@ -3,7 +3,9 @@
 ## Automatically setup the best and future-proofed linting and formatting config for your project with or without VS Code
 
 ![Node.js Package](https://github.com/vivekrp/eslint-config-getstarted/workflows/Node.js%20Package/badge.svg?style=flat-square) [![linting: eslint](https://img.shields.io/badge/linting-eslint-%238081f3)](https://github.com/eslint/eslint)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Node version](https://img.shields.io/node/v/eslint-config-getstarted.svg?style=flat)](http://nodejs.org/download/) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/vivekrp/eslint-config-getstarted/issues)
+
+[![https://nodei.co/npm/eslint-config-getstarted.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/eslint-config-getstarted.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/eslint-config-getstarted)
 
 Uses ESLint, Prettier, eslint-config-airbnb, babel-eslint, eslint-config-prettier, eslint-plugin-html, eslint-plugin-import, eslint-plugin-jsx-a11y, eslint-config-wesbos, eslint-plugin-prettier, eslint-plugin-react, eslint-plugin-react-hooks under the hood.
 
