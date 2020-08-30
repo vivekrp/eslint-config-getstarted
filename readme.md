@@ -47,7 +47,7 @@ npx install-peerdeps --dev eslint-config-getstarted
 
 ```json
 {
-  "extends": ["eslint-config-getstarted"]
+  "extends": ["getstarted"]
 }
 ```
 
@@ -70,7 +70,7 @@ If you'd like to overwrite eslint or prettier settings, you can add the rules in
 
 ```json
 {
-  "extends": ["eslint-config-getstarted"],
+  "extends": ["getstarted"],
   "rules": {
     "no-console": 2,
     "prettier/prettier": [
@@ -117,7 +117,7 @@ Once you have done one, or both, of the above installs. You probably want your e
 
 1. You gotta eject first `npm run eject` or `yarn eject`
 1. Run `npx install-peerdeps --dev eslint-config-getstarted`
-1. Crack open your `package.json` and replace `"extends": "react-app"` with `"extends": "eslint-config-getstarted"`
+1. Crack open your `package.json` and replace `"extends": "react-app"` with `"extends": "getstarted"`
 
 ## 🤬🤬🤬🤬 IT'S NOT WORKING
 
