@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-getstarted",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Automatically setup the best and future-proofed linting and formatting config for your project with or without VS Code.",
   "keywords": [
     "javascript",
